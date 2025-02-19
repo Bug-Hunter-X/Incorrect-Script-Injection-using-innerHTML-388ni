@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    // Correct way to add a script tag dynamically
+    var newScript = document.createElement('script');
+    newScript.textContent = "alert('This alert will execute correctly!');";
+    document.body.appendChild(newScript);
+  </script>
+</body>
+</html>
